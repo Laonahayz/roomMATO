@@ -38,17 +38,31 @@
 
 <h2>專案結構說明</h2>
 <ul>
-  <li><strong>ViewManager.cs</strong>：處理視角切換與控制邏輯</li>
-  <li><strong>RoomManager.cs</strong>：管理每個場景與解謎條件</li>
-  <li><strong>HintSystem.cs</strong>：提示邏輯與玩家互動引導</li>
-  <li><strong>ItemController.cs</strong>：道具取得與狀態管理</li>
-  <li><strong>Fungus Flowcharts</strong>：管理各房間事件、對話與解謎流程</li>
+  <li><strong>關卡流程管理：</strong><br>
+    控制整體流程切換、場景轉換、角色狀態切換與提示機制控制。<br>
+    代表腳本：<code>jumpout.cs</code>
+  </li>
+
+  <li><strong>提示與介面互動：</strong><br>
+    控制提示文字、教學圖示、魔法特效顯示與使用者介面。<br>
+    代表腳本：<code>Instructions.cs</code>、<code>change_sprite.cs</code>
+  </li>
+
+  <li><strong>角色控制與動畫：</strong><br>
+    處理角色移動、方向鍵輸入、動畫切換與跳躍音效。<br>
+    代表腳本：<code>player_walk_2.cs</code>、<code>animation.cs</code>、<code>MouseDetector.cs</code>
+  </li>
+
+  <li><strong>關卡互動邏輯：</strong><br>
+    各房間對應的互動事件與任務流程整合，包括物品取得、提示觸發與動畫控制。<br>
+    代表腳本：<code>bread.cs</code>、<code>cheese.cs</code>、<code>meet.cs</code>、<code>vagetable.cs</code>
+  </li>
 </ul>
 
 <h2>製作團隊</h2>
 <p><strong>匿名工作室（大學畢業製作團隊）</strong></p>
 <ul>
-  <li><strong>我：</strong>場景建置、角色動畫、介面互動、遊戲介紹流程設計、提示系統開發</li>
+  <li><strong>我：</strong>場景建置、角色動畫、介面互動、遊戲提示及介紹流程開發</li>
 </ul>
 
 <h2>⚠️ 注意事項</h2>

@@ -5,6 +5,20 @@
 <p>本遊戲提供PC運行，適用於 Windows 系統。</p>
 
 <h2 style="font-size: 20px;">系統畫面展示</h2>
+
+<h3 style="font-size: 16px;">系統畫面</h3>
+<table>
+  <tr>
+    <td><img src="Assets/Images/roomMATOScreenshots/roomMATO01.png" alt="畫面1" width="350" /></td>
+    <td><img src="Assets/Images/roomMATOScreenshots/roomMATO02.jpg" alt="畫面2" width="350" /></td>
+  </tr>
+  <tr>
+    <td><img src="Assets/Images/roomMATOScreenshots/roomMATO03.png" alt="畫面3" width="350" /></td>
+    <td><img src="Assets/Images/roomMATOScreenshots/roomMATO04.png" alt="畫面4" width="350" /></td>
+  </tr>
+</table>
+
+<h3 style="font-size: 16px;">展示影片</h3>
 <p>點擊圖片觀看實際展示影片</p>
 <a href="https://youtu.be/vqLbVmRgCY8">
   <img src="Assets/Images/roomMATO_Screenshot.png" alt="點擊觀看展示影片" width="600" />
